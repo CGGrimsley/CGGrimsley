@@ -11,7 +11,8 @@ across four notes apps. React 19 and Django 5, running at
 
 The code is in a private repo, so this page is generated rather than written. A
 script reads the local git history and task queue each night, drops what
-shouldn't be public, and rewrites this file — [how that works](#about-this-page).
+shouldn't be public, and rewrites this file. There's a note at the bottom on how
+it decides.
 
 [![silkie.io](https://img.shields.io/badge/silkie.io-0e0e0c?style=for-the-badge&logo=firefoxbrowser&logoColor=93b571)](https://silkie.io)
 [![Email](https://img.shields.io/badge/support@silkie.io-0e0e0c?style=for-the-badge&logo=maildotru&logoColor=93b571)](mailto:support@silkie.io)
@@ -169,4 +170,4 @@ Task text, branch names, spend and file paths never leave the machine.
 A false positive there costs a dull row and a false negative costs a leak, so it
 fails closed.
 
-<sub>Last generated 2026-08-26 04:06 UTC · latest commit 2026-08-25</sub>
+<sub>Last generated 2026-08-26 04:07 UTC · latest commit 2026-08-25</sub>
