@@ -16,7 +16,7 @@ it decides.
 
 [![silkie.io](https://img.shields.io/badge/silkie.io-0e0e0c?style=for-the-badge&logo=firefoxbrowser&logoColor=93b571)](https://silkie.io)
 [![Email](https://img.shields.io/badge/support@silkie.io-0e0e0c?style=for-the-badge&logo=maildotru&logoColor=93b571)](mailto:support@silkie.io)
-
+[![Instagram](https://img.shields.io/badge/Instagram-0e0e0c?style=for-the-badge&logo=instagram&logoColor=93b571)](https://www.instagram.com/silkie.io/) [![X](https://img.shields.io/badge/X-0e0e0c?style=for-the-badge&logo=x&logoColor=93b571)](https://x.com/Silkieio)
 
 ---
 
@@ -26,6 +26,8 @@ Most recent first. `×N` means a run of commits that collapsed to one line.
 
 | Date | Area | What changed |
 | :--- | :--- | :--- |
+| `2026-08-26` | Accounts | Test coverage |
+| `2026-08-26` | Harness | Cover the harness backup repo, clips and the QR fix |
 | `2026-08-26` | Harness | Document the profile README generator |
 | `2026-08-26` | Frontend | Use the reticle mark as the favicon and nav logo |
 | `2026-08-25` | Repo | Untrack the autonomous harness from the app repo |
@@ -33,17 +35,15 @@ Most recent first. `×N` means a run of commits that collapsed to one line.
 | `2026-08-25` | Harness | Fix |
 | `2026-08-25` | Frontend | Fix |
 | `2026-08-25` | Inventory | Fix |
+| `2026-08-25` | Frontend | Maintenance |
 | `2026-08-25` | Ad Studio | New work |
 | `2026-08-24` | Ad Studio | Move Ad Studio into its own switchable top-level tab |
 | `2026-08-24` | Ad Studio | Local ad creative generator + dashboard integration |
-| `2026-08-24` | Frontend | New work ×7 |
-| `2026-08-24` | Accounts | Crop profile photos to a circle-filling square |
-| `2026-08-24` | Community | Clip swipe-out card so it can't push the page sideways on mobile |
-| `2026-08-24` | Backend | Enrich tribe finder + event demo data for local testing |
+| `2026-08-24` | Frontend | New work |
 
-Recently in: **Frontend** (9) · **Ad Studio** (3) · **Harness** (2) · **Backend** (2) · **Repo** (1) · **Inventory** (1)
+Recently in: **Frontend** (4) · **Harness** (3) · **Ad Studio** (3) · **Accounts** (1) · **Repo** (1) · **Backend** (1)
 
-> 5 of the rows above show a generic summary instead of the real
+> 7 of the rows above show a generic summary instead of the real
 > commit subject — the filter drops any subject carrying a file path, a line
 > number, or hardening language.
 
@@ -51,8 +51,8 @@ Recently in: **Frontend** (9) · **Ad Studio** (3) · **Harness** (2) · **Backe
 
 ## 📊 By the numbers
 
-<img src="assets/card-activity.svg" alt="Build activity: 450 commits all time, 346 in the last 7 days, 391 in the last 30, 9 days with a commit, 3-day current streak, 3-day longest, 55 test files, building since 2025-12" width="49%">
-<img src="assets/card-harness.svg" alt="Autonomous harness: 82 cycles over 3 nights, 75 tasks shipped unattended, 65 tasks completed, 0 queued, 10 blocked, 7.4 machine hours, last run 2026-08-26" width="49%">
+<img src="assets/card-activity.svg" alt="Build activity: 467 commits all time, 363 in the last 7 days, 408 in the last 30, 9 days with a commit, 3-day current streak, 3-day longest, 55 test files, building since 2025-12" width="49%">
+<img src="assets/card-harness.svg" alt="Autonomous harness: 82 cycles over 3 nights, 75 tasks shipped unattended, 65 tasks completed, 0 queued, 10 blocked, 7.7 machine hours, last run 2026-08-26" width="49%">
 
 <img src="assets/card-languages.svg" alt="Language mix across the codebase" width="100%">
 
@@ -132,4 +132,4 @@ Task text, branch names, spend and file paths never leave the machine.
 A false positive there costs a dull row and a false negative costs a leak, so it
 fails closed.
 
-<sub>Last generated 2026-08-26 04:25 UTC · latest commit 2026-08-26</sub>
+<sub>Last generated 2026-08-26 05:01 UTC · latest commit 2026-08-26</sub>
