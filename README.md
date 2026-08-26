@@ -26,6 +26,7 @@ Most recent first. `×N` means a run of commits that collapsed to one line.
 
 | Date | Area | What changed |
 | :--- | :--- | :--- |
+| `2026-08-26` | Accounts | Require explicit consent and an 18+ attestation at signup |
 | `2026-08-26` | Accounts | Test coverage |
 | `2026-08-26` | Harness | Cover the harness backup repo, clips and the QR fix |
 | `2026-08-26` | Harness | Document the profile README generator |
@@ -39,11 +40,10 @@ Most recent first. `×N` means a run of commits that collapsed to one line.
 | `2026-08-25` | Ad Studio | New work |
 | `2026-08-24` | Ad Studio | Move Ad Studio into its own switchable top-level tab |
 | `2026-08-24` | Ad Studio | Local ad creative generator + dashboard integration |
-| `2026-08-24` | Frontend | New work |
 
-Recently in: **Frontend** (4) · **Harness** (3) · **Ad Studio** (3) · **Accounts** (1) · **Repo** (1) · **Backend** (1)
+Recently in: **Harness** (3) · **Frontend** (3) · **Ad Studio** (3) · **Accounts** (2) · **Repo** (1) · **Backend** (1)
 
-> 7 of the rows above show a generic summary instead of the real
+> 6 of the rows above show a generic summary instead of the real
 > commit subject — the filter drops any subject carrying a file path, a line
 > number, or hardening language.
 
@@ -132,4 +132,4 @@ Task text, branch names, spend and file paths never leave the machine.
 A false positive there costs a dull row and a false negative costs a leak, so it
 fails closed.
 
-<sub>Last generated 2026-08-26 05:57 UTC · latest commit 2026-08-26</sub>
+<sub>Last generated 2026-08-26 06:12 UTC · latest commit 2026-08-26</sub>
