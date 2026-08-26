@@ -14,9 +14,12 @@ script reads the local git history and task queue each night, drops what
 shouldn't be public, and rewrites this file. There's a note at the bottom on how
 it decides.
 
+Background, work history and what else I'm building:
+**[christopher-grimsley.com](https://christopher-grimsley.com/)**.
+
 [![silkie.io](https://img.shields.io/badge/silkie.io-0e0e0c?style=for-the-badge&logo=firefoxbrowser&logoColor=93b571)](https://silkie.io)
 [![Email](https://img.shields.io/badge/support@silkie.io-0e0e0c?style=for-the-badge&logo=maildotru&logoColor=93b571)](mailto:support@silkie.io)
-[![Instagram](https://img.shields.io/badge/Instagram-0e0e0c?style=for-the-badge&logo=instagram&logoColor=93b571)](https://www.instagram.com/silkie.io/) [![X](https://img.shields.io/badge/X-0e0e0c?style=for-the-badge&logo=x&logoColor=93b571)](https://x.com/Silkieio)
+[![Resume](https://img.shields.io/badge/Resume-0e0e0c?style=for-the-badge&logo=readdotcv&logoColor=93b571)](https://christopher-grimsley.com/) [![Instagram](https://img.shields.io/badge/Instagram-0e0e0c?style=for-the-badge&logo=instagram&logoColor=93b571)](https://www.instagram.com/silkie.io/) [![X](https://img.shields.io/badge/X-0e0e0c?style=for-the-badge&logo=x&logoColor=93b571)](https://x.com/Silkieio)
 
 ---
 
@@ -132,4 +135,4 @@ Task text, branch names, spend and file paths never leave the machine.
 A false positive there costs a dull row and a false negative costs a leak, so it
 fails closed.
 
-<sub>Last generated 2026-08-26 06:12 UTC · latest commit 2026-08-26</sub>
+<sub>Last generated 2026-08-26 19:39 UTC · latest commit 2026-08-26</sub>
