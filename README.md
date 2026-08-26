@@ -26,6 +26,8 @@ Most recent first. `×N` means a run of commits that collapsed to one line.
 
 | Date | Area | What changed |
 | :--- | :--- | :--- |
+| `2026-08-26` | Harness | Document the profile README generator |
+| `2026-08-26` | Frontend | Use the reticle mark as the favicon and nav logo |
 | `2026-08-25` | Repo | Untrack the autonomous harness from the app repo |
 | `2026-08-25` | Backend | Register WeasyPrint DLL dir so PDF tests run on Windows |
 | `2026-08-25` | Harness | Fix |
@@ -38,10 +40,8 @@ Most recent first. `×N` means a run of commits that collapsed to one line.
 | `2026-08-24` | Accounts | Crop profile photos to a circle-filling square |
 | `2026-08-24` | Community | Clip swipe-out card so it can't push the page sideways on mobile |
 | `2026-08-24` | Backend | Enrich tribe finder + event demo data for local testing |
-| `2026-08-24` | Frontend | Guarantee app preloader removal with timeout fallback |
-| `2026-08-24` | SOP builder | Import WeasyPrint lazily so backend boots without GTK |
 
-Recently in: **Frontend** (9) · **Ad Studio** (3) · **Backend** (2) · **Repo** (1) · **Harness** (1) · **Inventory** (1)
+Recently in: **Frontend** (9) · **Ad Studio** (3) · **Harness** (2) · **Backend** (2) · **Repo** (1) · **Inventory** (1)
 
 > 5 of the rows above show a generic summary instead of the real
 > commit subject — the filter drops any subject carrying a file path, a line
@@ -51,29 +51,10 @@ Recently in: **Frontend** (9) · **Ad Studio** (3) · **Backend** (2) · **Repo*
 
 ## 📊 By the numbers
 
-| | |
-| :--- | ---: |
-| Commits, all time | **448** |
-| Last 7 days | **344** |
-| Last 30 days | **389** |
-| Days with a commit | **8** |
-| Current streak | **2 days** |
-| Longest streak | **3 days** |
-| Tasks completed | **65** |
-| Still queued | **0** |
-| Test files | **55** (42 frontend, 13 backend) |
-| Building since | **2025-12** |
+<img src="assets/card-activity.svg" alt="Build activity: 450 commits all time, 346 in the last 7 days, 391 in the last 30, 9 days with a commit, 3-day current streak, 3-day longest, 55 test files, building since 2025-12" width="49%">
+<img src="assets/card-harness.svg" alt="Autonomous harness: 82 cycles over 3 nights, 75 tasks shipped unattended, 65 tasks completed, 0 queued, 10 blocked, 7.4 machine hours, last run 2026-08-26" width="49%">
 
-| Language | | |
-| :--- | :--- | ---: |
-| TypeScript | `████████████░░░░░░░░░░` | 56.5% |
-| Python | `█████████░░░░░░░░░░░░░` | 41.6% |
-| CSS | `█░░░░░░░░░░░░░░░░░░░░░` | 1.1% |
-| HTML | `█░░░░░░░░░░░░░░░░░░░░░` | 0.6% |
-| JavaScript | `█░░░░░░░░░░░░░░░░░░░░░` | 0.1% |
-
-<img src="assets/card-activity.svg" alt="Activity summary" width="49%">
-<img src="assets/card-harness.svg" alt="Autonomous harness summary" width="49%">
+<img src="assets/card-languages.svg" alt="Language mix across the codebase" width="100%">
 
 ---
 
@@ -90,14 +71,6 @@ merges to the dev branch and the task is marked done. Red marks it blocked, keep
 the branch, and moves on. `main` is read-only to every agent, enforced by a shell
 hook rather than a promise in a prompt.
 
-| | |
-| :--- | ---: |
-| Autonomous cycles | **81** |
-| Nights run | **2** |
-| Tasks shipped unattended | **75** |
-| Machine hours | **7.4** |
-| Last run | **2026-08-26** |
-
 Audits run separately and read-only: security, performance, mobile, feature
 completeness and compliance sweeps each file their findings back into the queue
 as tasks instead of editing anything themselves.
@@ -107,18 +80,7 @@ as tasks instead of editing anything themselves.
 ## 🎬 See it
 
 <table>
-<tr>
-<td width="320" valign="top">
-
-<a href="https://silkie.io" title="SiLKiE product spot — click for the full video"><img src="assets/silkie-spot-preview.webp" width="290" alt="SiLKiE product spot"></a>
-
-</td>
-<td valign="top">
-
-<img src="assets/shot-login.png" alt="SiLKiE sign-in" width="100%">
-
-</td>
-</tr>
+<tr><td align="center" valign="top"><a href="https://silkie.io" title="SiLKiE product spot"><img src="assets/clip-spot.webp" width="200" alt="SiLKiE product spot"></a><br><sub><b>The spot</b></sub></td><td align="center" valign="top"><a href="https://silkie.io" title="SiLKiE landing page walkthrough"><img src="assets/clip-landing.webp" width="200" alt="SiLKiE landing page walkthrough"></a><br><sub><b>Landing</b></sub></td><td align="center" valign="top"><a href="https://silkie.io" title="Tracking gear down to the mag count"><img src="assets/clip-inventory.webp" width="200" alt="Tracking gear down to the mag count"></a><br><sub><b>Inventory</b></sub></td><td align="center" valign="top"><a href="https://silkie.io" title="Finding people to train with"><img src="assets/clip-tribe.webp" width="200" alt="Finding people to train with"></a><br><sub><b>Tribe Finder</b></sub></td></tr>
 </table>
 
 ---
@@ -170,4 +132,4 @@ Task text, branch names, spend and file paths never leave the machine.
 A false positive there costs a dull row and a false negative costs a leak, so it
 fails closed.
 
-<sub>Last generated 2026-08-26 04:07 UTC · latest commit 2026-08-25</sub>
+<sub>Last generated 2026-08-26 04:25 UTC · latest commit 2026-08-26</sub>
