@@ -51,8 +51,8 @@ Recently in: **Frontend** (4) · **Harness** (3) · **Ad Studio** (3) · **Accou
 
 ## 📊 By the numbers
 
-<img src="assets/card-activity.svg" alt="Build activity: 467 commits all time, 363 in the last 7 days, 408 in the last 30, 9 days with a commit, 3-day current streak, 3-day longest, 55 test files, building since 2025-12" width="49%">
-<img src="assets/card-harness.svg" alt="Autonomous harness: 82 cycles over 3 nights, 75 tasks shipped unattended, 65 tasks completed, 0 queued, 10 blocked, 7.7 machine hours, last run 2026-08-26" width="49%">
+<img src="assets/card-activity.svg" alt="Build activity: 471 commits all time, 367 in the last 7 days, 412 in the last 30, 9 days with a commit, 3-day current streak, 3-day longest, 55 test files, building since 2025-12" width="49%">
+<img src="assets/card-harness.svg" alt="Autonomous harness: 83 cycles over 3 nights, 75 tasks shipped unattended, 72 tasks completed, 0 queued, 3 blocked, 7.7 machine hours, last run 2026-08-26" width="49%">
 
 <img src="assets/card-languages.svg" alt="Language mix across the codebase" width="100%">
 
@@ -132,4 +132,4 @@ Task text, branch names, spend and file paths never leave the machine.
 A false positive there costs a dull row and a false negative costs a leak, so it
 fails closed.
 
-<sub>Last generated 2026-08-26 05:01 UTC · latest commit 2026-08-26</sub>
+<sub>Last generated 2026-08-26 05:57 UTC · latest commit 2026-08-26</sub>
