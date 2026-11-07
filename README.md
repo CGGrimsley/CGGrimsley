@@ -93,8 +93,12 @@ Most recent first, taken from merged pull requests.
 
 ## 📊 By the numbers
 
-<img src="assets/card-activity.svg" alt="Build activity: 582 commits all time, 111 in the last 7 days, 111 in the last 30, 11 days with a commit, 2-day current streak, 3-day longest, 105 test files, building since 2025-12" width="49%">
-<img src="assets/card-loop.svg" alt="Shipped by pull request: 57 merged all time, 52 in the last 7 days, 52 in the last 30, busiest day 33 PRs, lint, types and tests on every PR, merged to main by me after review, tracked in GitHub issues and a board, last merge 2026-11-07" width="49%">
+<table>
+<tr>
+<td width="50%" valign="top"><img src="assets/card-activity.svg" alt="Build activity: 582 commits all time, 111 in the last 7 days, 111 in the last 30, 11 days with a commit, 2-day current streak, 3-day longest, 105 test files, building since 2025-12" width="100%"></td>
+<td width="50%" valign="top"><img src="assets/card-loop.svg" alt="Shipped by pull request: 57 merged all time, 52 in the last 7 days, 52 in the last 30, busiest day 33 PRs, lint, types and tests on every PR, merged to main by me after review, tracked in GitHub issues and a board, last merge 2026-11-07" width="100%"></td>
+</tr>
+</table>
 
 <img src="assets/card-languages.svg" alt="Language mix across the codebase" width="100%">
 
